@@ -1,0 +1,5 @@
+'''
+BearClass
+'''
+
+print("Hello Bear")
