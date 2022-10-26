@@ -10,10 +10,10 @@ Citations: N/A
 Anything else that's relevant: N/A
 '''
 class Dog():
-    def __init__(self, color, size):
+    def __init__(self, color,  size):
         self.color = color
         self.size = size
- 
+  
     def getColor(self):
         return self.color
     
