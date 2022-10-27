@@ -8,28 +8,22 @@ Brief Description:  collaborate with peers to develop an Eclipse project modelin
 Citations:
 Anything else that's relevant:
 '''
-from Bearpackage.BearClass import Bear
-if __name__ == "__main__":
-
-    myBear = Bear("white", 400)
-    
-    print(myBear.__str__())
-    
-    
+from BearPackage.BearClass import Bear
 from FishPackage.FishClass import Fish
-
-if __name__ == "__main__":
-
-    myFish = Fish("Orange", 5)
-    
-    print(myFish.__str__())
-    
-    
 from DogPackage.DogClass import Dog
 
-if __name__ == "__main__":
 
-    myDog = Dog("purple",80)
+myBear = Bear("White", 400)
+myBear.getColor() 
+print(myBear.__str__())
     
-    print (myDog.__str__())
+    
+myFish = Fish("Orange", 5)
+myFish.getColor()
+print(myFish.__str__())
+    
+
+myDog = Dog("Purple", 80)
+myDog.getColor() 
+print (myDog.__str__())
 

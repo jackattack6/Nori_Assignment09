@@ -20,16 +20,16 @@ class Fish():
         self.size = size
         
     def getColor(self):
-        return self.color
+        print(self.color)
     
     def getSize(self):
-        return self.size
+        print(self.size)
     
     def setColor(self, color):
         self.color = color
         
     def __str__(self):
-        return f"{self.color} fish that is{self.size} size"
+        return f"{self.color} fish that is {self.size} size"
 
     def __repr__(self):
         return f"Fish(\"{self.color}\", \"{self.size}\")"
